@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840EA602F136B474F2C9A442 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19352E0A6698243CDCB7244A /* OpenGL.framework */; };
+		B68AC1CC0D182C3EE591400C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E21F5234E590246666FCC874 /* main.cpp */; };
+		F4A43A4ABB3231BC2934588A /* libImGui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F7B8522E6E77849D0ACE92 /* libImGui.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		588D649D43798A8F8B5F52DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC9B52D670071488AEAAB916 /* ImGui.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B27392EA23FEAB5CD2FFD12A;
+			remoteInfo = libImGui.a;
+		};
+		AAC7D73695B3FD28DD99C576 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC9B52D670071488AEAAB916 /* ImGui.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F03FB590F3B087C2751D2BD0;
+			remoteInfo = libImGui.a;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19352E0A6698243CDCB7244A /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		AC9B52D670071488AEAAB916 /* libImGui.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "ImGui.xcodeproj"; path = ImGui.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E21F5234E590246666FCC874 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = "<group>"; };
+		FAEC2E2FFE5D00617FC9A46F /* OpenGLApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = OpenGLApp; path = OpenGLApp; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2138641FC483ED51DF54BA5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840EA602F136B474F2C9A442 /* OpenGL.framework in Frameworks */,
+				F4A43A4ABB3231BC2934588A /* libImGui.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		26AD384BCAFFD5FDDD381E8B /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXGroup section */
+		3684523D5CAA81EFC3B1787D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98F7B8522E6E77849D0ACE92 /* libImGui.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41479066C48CEDD8EDD46EA6 /* OpenGLApp */ = {
+			isa = PBXGroup;
+			children = (
+				E21F5234E590246666FCC874 /* main.cpp */,
+				BBF76781A7E87333FA200DC1 /* Frameworks */,
+				A6C936B49B3FADE6EA134CF4 /* Products */,
+				9D968EAA920D05DCE0E0A4EA /* Projects */,
+			);
+			name = OpenGLApp;
+			sourceTree = "<group>";
+		};
+		9D968EAA920D05DCE0E0A4EA /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				AC9B52D670071488AEAAB916 /* ImGui.xcodeproj */,
+			);
+			name = Projects;
+			sourceTree = "<group>";
+		};
+		A6C936B49B3FADE6EA134CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEC2E2FFE5D00617FC9A46F /* OpenGLApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBF76781A7E87333FA200DC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19352E0A6698243CDCB7244A /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28BF7C355765D027B0A72A75 /* OpenGLApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F73AC7EB2BF35B0CD9002BE /* Build configuration list for PBXNativeTarget "OpenGLApp" */;
+			buildPhases = (
+				911FE4BF346B6DF14F3C3AFF /* Resources */,
+				FACCFE169E188748B8E95456 /* Sources */,
+				2138641FC483ED51DF54BA5F /* Frameworks */,
+				26AD384BCAFFD5FDDD381E8B /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				243C8F464A62BEF8B169B586 /* PBXTargetDependency */,
+			);
+			name = OpenGLApp;
+			productInstallPath = "$(HOME)/bin";
+			productName = OpenGLApp;
+			productReference = FAEC2E2FFE5D00617FC9A46F /* OpenGLApp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "OpenGLApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 41479066C48CEDD8EDD46EA6 /* OpenGLApp */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3684523D5CAA81EFC3B1787D /* Products */;
+					ProjectRef = AC9B52D670071488AEAAB916 /* ImGui.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				28BF7C355765D027B0A72A75 /* OpenGLApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		98F7B8522E6E77849D0ACE92 /* libImGui.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libImGui.a;
+			remoteRef = 588D649D43798A8F8B5F52DD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		911FE4BF346B6DF14F3C3AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FACCFE169E188748B8E95456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68AC1CC0D182C3EE591400C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		243C8F464A62BEF8B169B586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libImGui.a;
+			targetProxy = AAC7D73695B3FD28DD99C576 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06E06E444F51527693F02484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = bin/Debug;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = OpenGLApp;
+			};
+			name = Debug;
+		};
+		87782A3EAFB2E2F0974E707E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = bin/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = OpenGLApp;
+			};
+			name = Release;
+		};
+		D5086F2FD879416159E5E56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++1z";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NDEBUG,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					vendor/GLFW/lib,
+					vendor/GLEW/lib,
+					vendor/GLM/lib,
+				);
+				OBJROOT = "bin-int/Release";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-lGLEW",
+					"-lGLM",
+					"-lGLFW",
+				);
+				SYMROOT = bin/Release;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					vendor/GLFW/include,
+					vendor/GLEW/include,
+					vendor/GLM/include,
+					"$(inherited)",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					vendor/GLFW/include,
+					vendor/GLEW/include,
+					vendor/GLM/include,
+					vendor/ImGui,
+					vendor/ImGui/backends,
+				);
+			};
+			name = Release;
+		};
+		E61CD3B58A6F71679CA7B9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++1z";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					vendor/GLFW/lib,
+					vendor/GLEW/lib,
+					vendor/GLM/lib,
+				);
+				OBJROOT = "bin-int/Debug";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lGLEW",
+					"-lGLM",
+					"-lGLFW",
+				);
+				SYMROOT = bin/Debug;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					vendor/GLFW/include,
+					vendor/GLEW/include,
+					vendor/GLM/include,
+					"$(inherited)",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					vendor/GLFW/include,
+					vendor/GLEW/include,
+					vendor/GLM/include,
+					vendor/ImGui,
+					vendor/ImGui/backends,
+				);
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F73AC7EB2BF35B0CD9002BE /* Build configuration list for PBXNativeTarget "OpenGLApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E06E444F51527693F02484 /* Debug */,
+				87782A3EAFB2E2F0974E707E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "OpenGLApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61CD3B58A6F71679CA7B9F5 /* Debug */,
+				D5086F2FD879416159E5E56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+};
+rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

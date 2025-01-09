@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'OpenGLApp' in project 'OpenGLApp'
+➜ Explicit dependency on target 'ImGui' in project 'ImGui'
+Target 'ImGui' in project 'ImGui' (no dependencies)

@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/cmoeller/projects/cpp/open-gl-template/bin/Debug/OpenGLApp'
+relocations:     []
+...
